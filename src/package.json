@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nanotimer": "^0.3.15"
+  }
+}
