@@ -8,15 +8,15 @@ all i need is to drive external clocks, send midi messages and eventually some
 OSC, unfortunatelly max/msp, supercollider and other applications i have played
 with didn't make it simple enough or at least not simple enough for me.
 
-(un)fortunately i use Ableton Live as DAW playing and for composing music live
-and it also has it downsides, for instance using it as MIDI Master Clock yields
+(un)fortunately i use Ableton Live as DAW for playing and composing music...
+Live also has some downsides, for instance using it as MIDI Master Clock yields
 weird glitches specially when using it to drive multiple external clocks,
-sometimes so another challenge i would like to explore is the idea of making a
-better master clock.
+that's a challenge i would like to explore... the idea of making a better
+master clock.
 
-goes without saying most nerds i know ( including me ) would say i'm insane
-for trying such thing using node.js instead of some "low level" programming
-environment, so turns out this is another challenge i would like to explore.
+goes without saying most nerds ( including me ) would say i'm insane for trying
+such thing using node.js instead of some "low level" programming environment,
+so turns out this is another challenge i would like to explore.
 
 obviousy this is all for fun and not for profit, main goals here are:
 
@@ -25,15 +25,15 @@ obviousy this is all for fun and not for profit, main goals here are:
 
  - create some sort of pattern editor / generator, initially using monome as UI
 
- - occupy my mind with more nerd stuff instead of making music so i don't remind
- myself about the fact that i still suck at doing music
+ - occupy my mind with nerd stuff instead of making music so i don't remind
+ myself about the fact that i suck at doing music
 
 ## software architecture
 
  - have a server separately from the repl ( sort of like supercollider ) so we
  can crash or update the repl without stopping the server
 
- - ideally the state of the app will eventually leave separately from the actual
+ - ideally the state of the app will eventually live separately from the actual
 code so we can crash the repl and take the state from where it was left
 
  - have repl / server separately so we can use one thread to drive things (server)
